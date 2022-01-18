@@ -25,12 +25,7 @@ public class Main
                 case 0:
                     order.printOrder();
                     break;
-                case 3:
-                    order.addSalad();
-                case 6:
-                    order.addChickenSandwich();
-                //Eric
-                //put your case below this comment
+                //put more cases below this comment
             }
         }
     }

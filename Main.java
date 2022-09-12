@@ -15,6 +15,7 @@ public class Main
             System.out.println("4. Shake");
             System.out.println("5. Chicken Nuggies");
             System.out.println("6. Chicken sandwich");
+            System.out.println("7. Chicken Salad");
             System.out.println("0. Done");
             System.out.print("Select an option: ");
 

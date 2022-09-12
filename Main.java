@@ -4,7 +4,7 @@ public class Main
 {
     public static void main(String[] args) {
         System.out.println("*** Welcome to Chick-Fil-A ***");
-        int option = 1;
+        int option = -1;
         Order order = new Order();
 
         while (option != 0) {
@@ -24,6 +24,9 @@ public class Main
             switch (option) {
                 case 0:
                     order.printOrder();
+                    break;
+                case 1:
+                    System.out.println("Ordering a drink...");
                     break;
                 //put more cases below this comment
             }
